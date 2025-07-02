@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="invitacion a mis XV">
+    <meta name="author" contenet="Juanzen">
+    <title>MIS XV AÑOS</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- datos de la cabezera-->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__logo">
+                <a href="#inicio" class="nav__logo--link">Mis XV años</a>
+            </div>
+            <button class="nav__toggle" aria-label="Abrir menú">
+                &#9776;
+            </button>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#inicio" class="nav__link">inicio</a></li>
+                    <li class="nav__item"><a href="#ubicacion" class="nav__link">ubicación</a></li>
+                    <li class="nav__item"><a href="#codigo_vestimenta" class="nav__link">código de vestimenta</a></li>
+                    <li class="nav__item"><a href="#reloj" class="nav__link">reloj</a></li>
+                    <li class="nav__item"><a href="#confirmar" class="nav__link">confirmar</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- seccion inicio-->
+        <section id="inicio" class="section section--inicio">
+            <h1 class="section__title">Invitación a mis XV años</h1>
+            <p>Hoy hace 15 años mis padres y abuelos daban gracias a Dios por mi. Hoy
+                doy gracias a Dios por ellos, por cuidarme, tenerme paciencia y
+                aconsejarme, doy gracias tambien a toda mi familia por hacer más feliz
+                este dia y a todos mis amigos por enseñarme el valor de la amistad.
+                Con alegría en nuestros corazones,
+                tenemos el honor de invitarlos a celebrar
+                los XV años de
+                Ximena</p>
+            <!-- audio-elegante -->
+            <div class="audio-elegante">
+                <button class="audio-control" aria-label="Reproducir música">
+                    <span class="icono-play">▶</span>
+                    <span class="icono-pause" hidden>❚❚</span>
+                </button>
+                <div class="audio-info">
+                    <span class="audio-titulo">Canción especial para Ximena</span>
+                    <div class="audio-bar-container">
+                        <div class="audio-bar"></div>
+                    </div>
+                </div>
+                <audio loop class="audio-hidden">
+                    <source src="audio/musica ximena.unknown" type="audio/mpeg">
+                </audio>
+            </div>
+
+            <img src="img/flores.jpg" alt="invitación a mis XV años">
+            <br>
+            <a href="#mapa" class="button button--primary">Ver mapa</a>
+        </section>
+        <!-- seccion ubicacion-->
+        <section id="ubicacion" class="section section--ubicacion">
+            <h2 class="section__title">Ubicación</h2>
+
+            <!-- Contenedor de tarjetas en fila -->
+            <div class="tarjetas-container">
+                <!-- Tarjeta 1 - ceremonia -->
+                <div class="tarjeta">
+                    <div class="tarjeta-icono">📍</div>
+                    <h3 class="tarjeta-titulo">Ceremonia</h3>
+                    <p class="tarjeta-texto">Templo Bethel, Miguel Hidalgo<br>Polutla, Papantla, Veracruz</p>
+                </div>
+                <!-- Tarjeta 2 - recepcion -->
+                <div class="tarjeta">
+                    <div class="tarjeta-icono">📍</div>
+                    <h3 class="tarjeta-titulo">Recepción</h3>
+                    <p class="tarjeta-texto">Heroico Colegio Militar s/n<br>Polutla, Papantla, Veracruz</p>
+                </div>
+
+
+                <!-- Tarjeta 3 - Horario -->
+                <div class="tarjeta">
+                    <div class="tarjeta-icono">⏰</div>
+                    <h3 class="tarjeta-titulo">Horario</h3>
+                    <p class="tarjeta-texto">Ceremonia: 14:00 hrs<br>Recepción: 15:00 hrs</p>
+                </div>
+
+                <!-- Tarjeta 4 - Fecha -->
+                <div class="tarjeta">
+                    <div class="tarjeta-icono">📅</div>
+                    <h3 class="tarjeta-titulo">Fecha</h3>
+                    <p class="tarjeta-texto">26 de Julio, 2025</p>
+                </div>
+            </div>
+            <div id="mapa" class="mapa-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.4982168655665!2d-97.26246722624732!3d20.526786380999873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85da4870cd581f83%3A0xf3ad1f5f782adffe!2sHeroico%20Colegio%20Militar%2C%2093534%20Polutla%2C%20Ver.!5e0!3m2!1ses-419!2smx!4v1751401055563!5m2!1ses-419!2smx"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+        <!-- seccion codigo de vestimenta-->
+        <section id="codigo_vestimenta" class="section section--codigo_vestimenta">
+            <div class="section__content">
+                <h2 class="section__title">codigo de vestimenta</h2>
+                <h3 class="section__description">Vestimenta formal </h3>
+            </div>
+            <div class="tarjetas-container">
+                <!-- Tarjeta 1 - Mujeres -->
+                <div class="tarjeta">
+                    <h3 class="tarjeta-titulo">MUJERES</h3>
+                    <p class="tarjeta-texto">vestido largo (abajo de la rodilla )todos los colores excepto lila.</p>
+                </div>
+                <!-- Tarjeta 2 - Hombres -->
+                <div class="tarjeta">
+                    <h3 class="tarjeta-titulo">HOMBRES</h3>
+                    <p class="tarjeta-texto">pantalón de vestir o de mezclilla con camisa los colores excepto lila.
+                    </p>
+                </div>
+        </section>
+
+        <!-- seccion reloj-->
+        <section id="reloj" class="section section--reloj">
+            <div class="section__content">
+                <h2 class="section__title">faltan</h2>
+                <p class="section__description"></p>
+            </div>
+        </section>
+
+        <!-- Sección Confirmar Asistencia -->
+        <section id="confirmar" class="section section--confirmar">
+            <h2 class="section__title">Confirma tu asistencia</h2>
+            <p class="section__description">Por favor, confirma antes del 15 de julio de 2025</p>
+
+            <form id="form-confirmar" action="https://formspree.io/f/mqabnrge" method="POST" class="form-confirmar">
+                
+
+                <div class="form-group">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="invitados">Número de invitados:</label>
+                    <select id="invitados" name="invitados">
+                        <option value="1">1 persona (solo yo)</option>
+                        <option value="2">2 personas</option>
+                        <option value="3">3 personas</option>
+                        <option value="4">4 personas</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje (opcional):</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+
+                <button type="submit" class="button button--primary">Confirmar</button>
+            </form>
+
+            <div id="confirmacion-mensaje" class="confirmacion-mensaje" hidden>
+                <p>¡Gracias por confirmar! Nos vemos el día del evento.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__content">
+            <p class="footer__text">©2024 Mis XV años Ximena. Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
